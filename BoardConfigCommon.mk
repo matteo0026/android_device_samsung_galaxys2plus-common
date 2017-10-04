@@ -98,7 +98,7 @@ WIFI_DRIVER_MODULE_ARG              := "firmware_path=/system/etc/wifi/bcmdhd_st
 WIFI_BAND                           := 802_11_ABG
 
 # healthd
-BOARD_HAL_STATIC_LIBRARIES := libhealthd.capri
+#BOARD_HAL_STATIC_LIBRARIES := libhealthd.capri
 WITH_LINEAGE_CHARGER := false
 
 # Charger
