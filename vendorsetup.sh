@@ -1,1 +1,1 @@
-add_lunch_combo aex_i9105p-eng
+add_lunch_combo aosp_i9105p-eng
