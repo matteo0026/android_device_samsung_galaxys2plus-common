@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES += \
 # Packages
 PRODUCT_PACKAGES += \
     charger_res_images \
-    SamsungDoze \
+    #SamsungDoze \
     SamsungServiceMode 
 
 # Permissions
