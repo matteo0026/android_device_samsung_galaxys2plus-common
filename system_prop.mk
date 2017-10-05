@@ -37,7 +37,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Disable ADB authentication
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
-    ro.secure=0
+    ro.secure=0 \
+    persist.sys.usb.config=mtp,adb
 
 # BG Tuning
 PRODUCT_PROPERTY_OVERRIDES += \
