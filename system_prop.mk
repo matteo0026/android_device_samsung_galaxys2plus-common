@@ -35,7 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=56m
 
 # Disable ADB authentication
-ADDITIONAL_DEFAULT_PROPERTIES += \
+PRODUCT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
     ro.secure=0
 
@@ -44,3 +44,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ro.sys.fw.bg_apps_limit=8 \
 ro.config.low_ram=true \
 persist.sys.force_highendgfx=true
+
+#AOSPExtended only
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.extended.display.version=AospExtended-v5.0-ALPHA
