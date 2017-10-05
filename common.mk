@@ -35,7 +35,7 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    libglgps-compat
+    #libglgps-compat
 
 # Audio modules
 PRODUCT_PACKAGES += \
