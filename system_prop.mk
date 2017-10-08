@@ -34,12 +34,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=56m
 
-# Disable ADB authentication
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.adb.secure=0 \
-    ro.secure=0 \
-    persist.sys.usb.config=mtp,adb
-
 # BG Tuning
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.sys.fw.bg_apps_limit=8 \

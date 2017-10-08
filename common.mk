@@ -128,3 +128,12 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl \
     android.hardware.memtrack@1.0-impl \
     android.hardware.renderscript@1.0-impl
+
+#ADB
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.debug_level=0x4948 \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    persist.service.adb.enable=1 \
+    ro.debuggable=1 \
+    persist.sys.usb.config=mtp,adb
