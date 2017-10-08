@@ -34,6 +34,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=56m
 
+# ADB
+ro.debug_level=0x4948
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+
 # BG Tuning
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.sys.fw.bg_apps_limit=8 \

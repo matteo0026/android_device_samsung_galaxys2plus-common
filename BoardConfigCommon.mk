@@ -64,7 +64,7 @@ BOARD_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS -DCAPRI_HWC -DREFBASE_JB_MR1_C
 BOARD_HARDWARE_CLASS := hardware/samsung/cmhw/ device/samsung/galaxys2plus-common/cmhw/
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/samsung/galaxys2plus-common/ril/
+#BOARD_RIL_CLASS := ../../../device/samsung/galaxys2plus-common/ril/
 
 # GPS
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/galaxys2plus-common/include
