@@ -111,7 +111,7 @@ $(call inherit-product, $(COMMON_PATH)/system_prop.mk)
 
 # HIDL
 PRODUCT_COPY_FILES += \
-    device/samsung/galaxys2plus-common/manifest.xml:system/vendor/manifest.xml
+    $(LOCAL_PATH)/manifest.xml:system/vendor/manifest.xml
 
 # HIDL
 PRODUCT_PACKAGES += \
