@@ -51,7 +51,7 @@ ro.config.low_ram=true \
 persist.sys.force_highendgfx=true
 
 #AOSPExtended only
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.extended.display.version=AospExtended-v5.0-ALPHA
+#PRODUCT_PROPERTY_OVERRIDES += \
+    #ro.extended.display.version=AospExtended-v5.0-ALPHA
 
 persist.media.treble_omx=false
