@@ -1,0 +1,2 @@
+service logcat /system/bin/logcat -f /data/log
+	oneshot
