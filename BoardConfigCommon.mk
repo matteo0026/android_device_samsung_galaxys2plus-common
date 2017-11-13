@@ -124,3 +124,9 @@ ANDROID_NO_TEST_CHECK := true
 
 # SELinux
 #BOARD_SEPOLICY_DIRS += device/samsung/galaxys2plus-common/sepolicy
+
+# Binder API version
+TARGET_USES_64_BIT_BINDER := true
+
+# ADB Legacy Interface
+TARGET_USES_LEGACY_ADB_INTERFACE := true
