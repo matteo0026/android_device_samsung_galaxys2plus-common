@@ -117,6 +117,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
     android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-impl-legacy \
+    android.hardware.gnss@1.0-impl \
+    camera.device@1.0-impl-legacy \
     android.hardware.power@1.0-impl \
     android.hardware.light@2.0-impl \
     android.hardware.bluetooth@1.0-impl \
@@ -127,7 +130,11 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.renderscript@1.0-impl \
     android.hardware.configstore@1.0-impl \
-    android.hardware.bluetooth@1.0-impl
+    android.hardware.drm@1.0-impl \
+    android.hardware.nfc@1.0-impl \
+    android.hardware.usb@1.0-service \
+    android.hardware.vibrator@1.0-impl \
+    android.hardware.wifi@1.0-service
 
 # Audio HAL
 PRODUCT_PACKAGES += \
